@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1660060900 source:c:\users\cesar\desktop\exercise files\robots\c++ proramming\proyectos\ejercicios web\ejercicios codezclub\reverse_number\main.cpp
+	<iostream>
+	<vector>
+

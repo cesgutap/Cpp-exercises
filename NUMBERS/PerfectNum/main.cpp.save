@@ -1,0 +1,29 @@
+#include <iostream>
+
+/* Write a C++ Program to find Perfect Number using loop.
+A perfect numbers is a positive number that equals the sum of its divisors, excluding itself. */
+
+
+using namespace std;
+
+int main()
+{
+    int topLim;
+    cout << "Enter the top searching limit: " << endl;
+    cin >> topLim;
+    if (topLim > 0)
+    {
+        int divSum;
+        for (num = 1; num != topLim; num++)
+        {
+            for (i = 1; i != num; i++)
+            {
+                if 
+                div = num
+            }
+        }
+    }
+    else
+        cout << "Not a valid number" << endl;
+
+}

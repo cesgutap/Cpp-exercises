@@ -1,0 +1,29 @@
+#include <iostream>
+#include <vector>
+
+//C++ Program to Reverse a Number using while loop
+
+using namespace std;
+
+int main()
+{
+    int num, rev = 0, aux = 0;
+    vector <int> rev_vec;
+    cout << "Gimme the number to reverse: ";
+    cin >> num;
+
+    while (num > 0)
+    {
+        rev_vec.push_back(num%10);
+        num = num/10;
+    }
+    for (i:rev_vec)
+    {
+        j = 1;
+        if (j=1)
+            rev = rev
+        rev = rev + rev_vec[i]*10^j;
+    }
+    cout << rev;
+    return 0;
+}
