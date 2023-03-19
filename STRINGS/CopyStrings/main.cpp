@@ -1,0 +1,36 @@
+#include <iostream>
+
+using namespace std;
+
+/* Write a C++ program to convert a given number into hours and minutes. Separate the number of hours and minutes with a colon.
+
+For example if a given number is 67 the output should be 1:7 */
+
+int main() {
+
+    cout << "Introduce a number of minutes (ex. 67.7): ";
+    double num;
+    cin >> num;
+
+    int horas = num / 60;
+
+    int num_int = num;                                // Implicit conversion
+    int minutos = (num_int)%60;
+
+    num = num - (horas*60) - minutos;
+    int segundos = 0;
+    while (num != 0)
+    {
+        num *= 10;
+        segundos += num;
+        num_int = num;
+        num -= num_int;
+    }
+
+    cout << "El resultado es: " << horas << " horas, " <<
+     minutos << " minutos, " <<
+     segundos << " segundos." << endl;
+
+    return 0;
+
+}
